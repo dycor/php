@@ -1,3 +1,3 @@
-FROM PHP
+FROM php
 MAINTAINER groupe10
-RUN apt install mysql-server
+RUN apt-get update && apt install mysql-server 
